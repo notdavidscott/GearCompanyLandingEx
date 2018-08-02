@@ -31,7 +31,7 @@ img {
     height: 141px;
     font-family: 'Calligraffitti', cursive;
     letter-spacing: 1px;
-    font-size: 3em;
+    font-size: 6vh;
 }
 
 .alert-banner {
@@ -46,11 +46,13 @@ img {
 
 
 #gt1 {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
 }
 
 #gt2 {
-    width: 403px;     
+    width: 100%;
+    max-width: 403px;
 }
 
 #bethelmusic1 {
