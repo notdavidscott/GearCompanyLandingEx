@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Bilbo|Calligraffitti|Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+/* 
+font-family: 'Calligraffitti', cursive;
+font-family: 'Bilbo', cursive;
+font-family: 'Noto Sans', sans-serif; 
+font-family: 'Roboto Slab', serif;
+*/
+
+ /* -----grid systems (for larger components/features----- */
+ .grid {
+    width: auto;
+}
+
+img {
+    height: auto;
+    width: auto;
+}
+#top {
+    background-color: rgb(247, 247, 247);
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+#nav {
+    background-color: rgb(247, 247, 247);
+    font-size: 13px;
+}
+.header {
+    position: relative;
+    background-color: rgb(20, 20, 20);
+    color: rgb(231, 225, 225);
+    height: 141px;
+    font-family: 'Calligraffitti', cursive;
+    letter-spacing: 1px;
+    font-size: 3em;
+}
+
+.alert-banner {
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(230, 230, 230);
+    font-size: 20px;
+}
+
+#keypoint {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+#gt1 {
+    width: 400px;
+}
+
+#gt2 {
+    width: 403px;     
+}
+
+#bethelmusic1 {
+  width: 100%;
+  opacity: .9;
+  
+}
+.image-container {
+    text-align: center;
+    color: white;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.nav-col-1-6 {
+    width: 20%;
+}
+
+.nav-col-10-12 {
+    width: 80%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.text-item {
+    width: 33.33%;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Noto Sans', sans-serif; 
+    
+}
+
+/* gutters */
+*, *:after, *:before {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.footer {
+    background-color: black;
+    padding: 20px;
+    height: 200px;
+    color: white;
+    line-height: 100px;
+}
+
+
+
